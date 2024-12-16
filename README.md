@@ -1,150 +1,146 @@
-CSS NOTES
-This repository contains the basic and essential topics and their notes to learn the CSS as beginner.
+# CSS NOTES
 
-Refer the below contents, To kick start the learning of CSS. which gives you step by step approach to the CSS.
- 
+This repository contains __the basic and essential__ topics and their notes to learn the __`CSS`__ as beginner.
 
-☰ CONTENTS
-Usage
+*Refer the below contents, To kick start the learning of CSS. which gives you __step by step__ approach to the CSS.*
+\
+&nbsp;
 
-Introduction
+## &#9776; CONTENTS 
+1. [Usage](./usage.md)
+2. [Introduction](./introduction.md)
+	- [What is CSS?](./introduction.md#-what-is-css)
+	- [How CSS works with HTML?](./introduction.md#-how-css-works-with-html)
+	- [Basic syntax and structure](./introduction.md#-basic-syntax-and-structure)
+	- [Selectors:](./docs/selectors.md)
+		- [Element selectors](./docs/selectors.md#-element-selectors)
+		- [Class selectors](./docs/selectors.md#-class-selectors)
+		- [ID selectors](./docs/selectors.md#-id-selectors)
+		- [Universal selector](./docs/selectors.md#-universal-selector)
+		- [Descendant selectors](./docs/selectors.md#-descendant-selectors)
+		- [Child selectors](./docs/selectors.md#-child-selectors)
+		- [Adjacent sibling selectors](./docs/selectors.md#-adjacent-sibling-selectors)
+		- [General sibling selectors](./docs/selectors.md#-general-sibling-selectors)
+		- [Attribute selectors](./docs/selectors.md#-attribute-selectors)
+	- [Pseudo Selectors:](./docs/pseudo-selectors.md)
+		- [Structural Pseudo Selectors](./docs/pseudo-selectors.md#-structural-pseudo-selectors)
+		- [State Pseudo Selectors](./docs/pseudo-selectors.md#-state-pseudo-selectors)
+		- [Content Pseudo Selectors](./docs/pseudo-selectors.md#-content-pseudo-selectors)
 
-What is CSS?
-How CSS works with HTML?
-Basic syntax and structure
-Selectors:
-Element selectors
-Class selectors
-ID selectors
-Universal selector
-Descendant selectors
-Child selectors
-Adjacent sibling selectors
-General sibling selectors
-Attribute selectors
-Pseudo Selectors:
-Structural Pseudo Selectors
-State Pseudo Selectors
-Content Pseudo Selectors
-Properties and Values:
+3. [Properties and Values:](./docs/properties-and-values.md)
+	- [Understanding properties](./docs/properties-and-values.md#-understanding-properties)
+	- [Setting values](./docs/properties-and-values.md#-setting-values)
+	- [Common properties:](./docs/properties-and-values.md#-overview)
+		- [`color`](./docs/properties-and-values.md#-color)
+		- [`background`](./docs/properties-and-values.md#-background)
+		- [`font`](./docs/properties-and-values.md#-font)
+		- [`margin`](./docs/properties-and-values.md#-margin)
+		- [`padding`](./docs/properties-and-values.md#-padding)
+		- [`border`](./docs/properties-and-values.md#-border)
+		- [`display`](./docs/properties-and-values.md#-display)
+		- [`position`](./docs/properties-and-values.md#-position)
+		- [`float`](./docs/properties-and-values.md#-float)
+		- [`width`](./docs/properties-and-values.md#-width)
+		- [`height`](./docs/properties-and-values.md#-height)
+		- [`overflow`](./docs/properties-and-values.md#-overflow)
+4. [CSS Units:](./docs/css-units.md)
+	- [Pixels (px)](./docs/css-units.md#-pixels)
+	- [Percentages (%)](./docs/css-units.md#-percentages)
+	- [Ems (em)](./docs/css-units.md#-ems)
+	- [Rems (rem)](./docs/css-units.md#-rems)
+	- [Viewport units (vw, vh, vmax, vmin)](./docs/css-units.md#-viewport-units)
+5. [Text Styling:](./docs/text-styling.md)
+	- [Font families](./docs/text-styling.md#-font-families)
+	- [Font sizes](./docs/text-styling.md#-font-sizes)
+	- [Font weights](./docs/text-styling.md#-font-weights)
+	- [Text decoration](./docs/text-styling.md#-text-decoration)
+	- [Text alignment](./docs/text-styling.md#-text-alignment)
+	- [Text transforms](./docs/text-styling.md#-text-transforms)
+6. [Color and Background:](./docs/color-and-background.md)
+	- [Color models (RGB, HSL, HEX)](./docs/color-and-background.md#-color-models)
+	- [Color Opacity](./docs/color-and-background.md#-color-opacity),
+	- [Background color](./docs/color-and-background.md#-background-color)
+	- [Background images](./docs/color-and-background.md#-background-images)
+	- [Background positioning](./docs/color-and-background.md#-background-positioning)
+	- [Background repetition](./docs/color-and-background.md#-background-repetition)
+	- [Background attachment](./docs/color-and-background.md#-background-attachment)
+	- [Gradient Text](./docs/color-and-background.md#-gradient-text)
+7. [Layouts:](./docs/layouts.md)
+	- [Block-level elements](./docs/layouts.md#-block-level-elements)
+	- [Inline elements](./docs/layouts.md#-inline-elements)
+	- [Inline-block elements](./docs/layouts.md#-inline-block-elements)
+	- [Flexbox layout](./docs/layouts.md#-flexbox-layout)
+	- [Grid layout](./docs/layouts.md#-grid-layout)
+	- [Positioning](./docs/layouts.md#-positioning)
+	- [Floating elements](./docs/layouts.md#-floating-elements)
+8. [Borders and Outlines:](./docs/borders-and-outlines.md)
+	- [Border width](./docs/borders-and-outlines.md#-border-width)
+	- [Border style](./docs/borders-and-outlines.md#-border-style)
+	- [Border color](./docs/borders-and-outlines.md#-border-color)
+	- [Outlines](./docs/borders-and-outlines.md#-outlines)
+	- [Box Shadow](./docs/borders-and-outlines.md#-box-shadow)
+9. [Responsive Design:](./docs/responsive-design.md)
+	- [Media queries](./docs/responsive-design.md#-media-queries)
+	- [Flexible layouts](./docs/responsive-design.md#-flexible-layouts)
+	- [Responsive images](./docs/responsive-design.md#-responsive-images)
+	- [Fluid typography](./docs/responsive-design.md#-fluid-typography)
+	- [Flexbox or Grid](./docs/responsive-design.md#-flexbox-or-grid)
+	- [Important Key Points](./docs/responsive-design.md#-important-key-points)
+10. [CSS Animations:](./docs/css-animations.md)
+	- [Keyframes](./docs/css-animations.md#-keyframes)
+	- [Animation properties](./docs/css-animations.md#-animation-properties)
+	- [Animation timing functions](./docs/css-animations.md#-animation-timing-functions)
+	- [Animation delay](./docs/css-animations.md#-animation-delay)
+	- [Animation iteration count](./docs/css-animations.md#-animation-iteration-count)
+	- [Animation direction](./docs/css-animations.md#-animation-direction)
+11. [CSS Transitions:](./docs/css-transitions.md)
+	- [Transition properties](./docs/css-transitions.md#-transition-properties)
+	- [Transition duration](./docs/css-transitions.md#-transition-duration)
+	- [Transition timing functions](./docs/css-transitions.md#-transition-timing-functions)
+	- [Transition delay](./docs/css-transitions.md#-transition-delay)
+	- [Shorthand Transition Property](./docs/css-transitions.md#-shorthand-transition-property)
+	- [Resize Property](./docs/css-transitions.md#-resize-property)
+12. [CSS Filters:](./docs/css-filters.md)
+	- [Blur](./docs/css-filters.md#-blur)
+	- [Brightness](./docs/css-filters.md#-brightness)
+	- [Contrast](./docs/css-filters.md#-contrast)
+	- [Grayscale](./docs/css-filters.md#-grayscale)
+	- [Hue-rotate](./docs/css-filters.md#-hue-rotate)
+	- [Invert](./docs/css-filters.md#-invert)
+	- [Opacity](./docs/css-filters.md#-opacity)
+	- [Sepia](./docs/css-filters.md#-sepia)
+	- [Multiple Filters Effect](./docs/css-filters.md#multiple-filters-effect)
+13. [CSS Clip Path Topics](./docs/css-clip-path.md)
+	- [Basic Clip Path:](./docs/css-clip-path.md#-basic-clip-path)
+		- [Common shape functions](./docs/css-clip-path.md#-common-shape-functions)
+			- [circle](./docs/css-clip-path.md#-circle)
+			- [ellipse](./docs/css-clip-path.md#-ellipse)
+			- [polygon](./docs/css-clip-path.md#-polygon)
+			- [inset](./docs/css-clip-path.md#-inset)
+	- [Advanced Clip Path:](./docs/css-clip-path.md#-advanced-clip-path)
+		- [Path Function](./docs/css-clip-path.md#-path-function)
+		- [URL Function](./docs/css-clip-path.md#-url-function)
+	- [Clip Rule property](./docs/css-clip-path.md#-clip-rule-property)
+		- [nonzero](./docs/css-clip-path.md#-nonzero)
+		- [evenodd](./docs/css-clip-path.md#-evenodd)
+	- [Use Cases and Examples:](./docs/css-clip-path.md#-use-cases-and-examples)
+		- [Creating custom shapes](./docs/css-clip-path.md#-creating-custom-shapes)
+		- [Masking elements](./docs/css-clip-path.md#-masking-elements)
+		- [Creating unique visual effects](./docs/css-clip-path.md#-creating-unique-visual-effects)
+		- [Combining with other CSS properties](./docs/css-clip-path.md#-combining-with-other-css-properties)
 
-Understanding properties
-Setting values
-Common properties:
-color
-background
-font
-margin
-padding
-border
-display
-position
-float
-width
-height
-overflow
-CSS Units:
-
-Pixels (px)
-Percentages (%)
-Ems (em)
-Rems (rem)
-Viewport units (vw, vh, vmax, vmin)
-Text Styling:
-
-Font families
-Font sizes
-Font weights
-Text decoration
-Text alignment
-Text transforms
-Color and Background:
-
-Color models (RGB, HSL, HEX)
-Color Opacity,
-Background color
-Background images
-Background positioning
-Background repetition
-Background attachment
-Gradient Text
-Layouts:
-
-Block-level elements
-Inline elements
-Inline-block elements
-Flexbox layout
-Grid layout
-Positioning
-Floating elements
-Borders and Outlines:
-
-Border width
-Border style
-Border color
-Outlines
-Box Shadow
-Responsive Design:
-
-Media queries
-Flexible layouts
-Responsive images
-Fluid typography
-Flexbox or Grid
-Important Key Points
-CSS Animations:
-
-Keyframes
-Animation properties
-Animation timing functions
-Animation delay
-Animation iteration count
-Animation direction
-CSS Transitions:
-
-Transition properties
-Transition duration
-Transition timing functions
-Transition delay
-Shorthand Transition Property
-Resize Property
-CSS Filters:
-
-Blur
-Brightness
-Contrast
-Grayscale
-Hue-rotate
-Invert
-Opacity
-Sepia
-Multiple Filters Effect
-CSS Clip Path Topics
-
-Basic Clip Path:
-Common shape functions
-circle
-ellipse
-polygon
-inset
-Advanced Clip Path:
-Path Function
-URL Function
-Clip Rule property
-nonzero
-evenodd
-Use Cases and Examples:
-Creating custom shapes
-Masking elements
-Creating unique visual effects
-Combining with other CSS properties
-⚑ Contribution
+## &#9873; Contribution
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the existing coding style and provide clear documentation for your changes.
 
-⚑ License
-This reference licensed under the MIT license. Feel free to use, modify, and distribute it as per the terms of the license.
+## &#9873; License
+This reference licensed under the [MIT license](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
-⚑ Contact
-If you have any questions or need further assistance, please feel free to reach me by referring My Github Profile
+## &#9873; Contact
+If you have any questions or need further assistance, please feel free to reach me by referring [My Github Profile](https://github.com/ag-sanjjeev/)
 
 Thanks for reviewing this reference notes!
+
+
+
+
+
